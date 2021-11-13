@@ -36,14 +36,18 @@ header nav {
   margin: 7px 0;
 }
 
-header nav ul li {
-  display: inline;
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 /* HEADER / NAVBAR STYLES END */
@@ -82,7 +86,7 @@ section {
 
 /* HERO STYLES START */
 .hero {
-  background-image: url('../images/hero-bg.jpg');
+  background-image: url('../images/hero-bg.jpeg');
   background-size: cover;
   background-position: center;
   position: relative;
